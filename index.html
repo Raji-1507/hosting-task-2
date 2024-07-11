@@ -1,0 +1,1593 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hosing-raja</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(247, 239, 239);
+        }
+
+        .container_1 {
+            background-color: #fff4ed;
+
+        }
+
+        input.form-control:focus {
+            box-shadow: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+        .container_2 {
+            background-color: white;
+
+        }
+
+        /* .dollar {
+            height: 8px;
+            width: 8px;
+           position: absolute;
+        } */
+        .card {
+            border: 2px solid #fd1c24;
+        }
+
+        .container_3 {
+            background-color: #fff4ed;
+        }
+
+        ul li {
+            list-style: none;
+            padding-bottom: 4px;
+
+        }
+
+        .mostPopular {
+            background-color: #fd1c24;
+            border: 2px solid #fd1c24;
+            border-radius: 25px;
+            text-align: center;
+            color: white;
+            font-size: 14px;
+            position: absolute;
+            top: -12px;
+            left: 70px;
+
+        }
+
+        .container_4 {
+            background-color: white;
+        }
+
+        .container_5 {
+            background-color: #fff4ed;
+
+        }
+
+        .container_6 {
+            background-color: white;
+        }
+
+        .container_7 {
+            background-color: #fff4ed;
+
+        }
+
+        .img_circle {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: rgb(252, 198, 208);
+            align-content: center;
+            padding: 4px;
+        }
+
+        .container_8 {
+            background-color: white;
+        }
+
+        .stars i {
+            color: #fd1c24;
+        }
+
+        .dot {
+            height: 8px;
+            width: 8px;
+            border-radius: 50%;
+            border: 1px solid #fd1c24;
+
+        }
+
+        .dot_fill {
+            background-color: #fd1c24;
+        }
+
+        /* .collapse-toggle::before {
+            content: '+';
+            display: inline-block;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        .collapse.show .collapse-toggle::after {
+            content: '-';
+            display: inline-block;
+            margin-right: 5px;
+            font-weight: bold;
+        } */
+        .card_collapse {
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+        }
+
+        .card-body_collapse {
+            background: linear-gradient(#fff4ed,#ffdec9);
+        }
+
+        .container_9 {
+            background-color: rgb(240, 231, 231);
+        }
+
+        .break {
+            border-bottom: 1px solid rgb(218, 218, 241);
+            height: 8px;
+        }
+
+        .square_box {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            background-color: #fd1c24;
+            padding: 4px;
+            text-align: center;
+        }
+
+        .details_list ul li {
+            padding-bottom: 14px;
+        }
+
+        .break_footer {
+            border-bottom: 1px solid #fd1c24;
+            margin: 8px;
+            height: 10px;
+        }
+
+        .square_outer {
+            width: 30px;
+            height: 30px;
+            border-radius: 4px;
+            border: 2px solid #fd1c24;
+            padding: 4px;
+            text-align: center;
+        }
+
+        .search_field {
+            /* width: 50%; */
+            /* box-shadow: 1px 1px 7px 2px #95918e; */
+            margin: auto;
+            border: 1px 0px gray;
+            border-radius: 25px;
+            background-color: white;
+        }
+        input.form-control:focus {
+            box-shadow: none;
+        }
+        .btn_1_bg {
+            background-color: #fd1c24;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex flex-column">
+        <div class=" container_1 mx-4">
+            <div class=" mx-4 my-3  d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-column position-relative">
+                    <a class="navbar-brand pb-0 me-auto" href="#">
+                        <span style="font-weight: 600;font-size: 24px;">HOSTING</span>
+                        <span style="font-weight: 600;font-size: 24px; color:#fd1c24;">RAJA</span>
+                        <span style="font-size: 14px;color: rgb(179, 172, 172); position: absolute;">
+                            ®
+                        </span>
+                    </a>
+                    <span style="font-size: 13px;font-weight: 500;">No.1 Indian Hosting Company</span>
+                    <span style="font-size: 13px; font-weight: 500;">ISO 9001:2015 Certified</span>
+                </div>
+                <div class="d-flex gap-4">
+                    <span><a href="#">Home</a></span>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Hosting
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Domain
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Technology
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Help Center
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                    <div>
+                        <span><i class="bi bi-person"></i></span>
+                        <span><a href="#">Login</a></span>
+                    </div>
+                    <div class="dropdown">
+                        <a class="border-0  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                            <li><button class="dropdown-item" type="button"></button></li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-outline-secondary fw-bold">Get Started</button>
+                </div>
+            </div>
+            <div class="row  my-5 d-flex justify-content-between">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-5 m-5 d-flex flex-column">
+                    <div class=" my-2">
+                        <button style="color:#8196b5;border-color: #fd1c24;" class="btn fw-bold"><i style="color: #fd1c24;" class="bi bi-basket pe-2"></i>30% Discount
+                            first month
+                            Purchase</button>
+                    </div>
+                    <p style="font-weight: bold; text-shadow: 15px; font-size: 50px;color:#757a8d;">Premium Hoisting for
+                        Growing
+                        Businesses</p>
+                    <div class="btn-group w-25" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-danger" for="btnradio1">Register</label>
+
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-danger " for="btnradio2">Transfer</label>
+
+
+                    </div>
+                    <div class="input-group  my-3 ">
+                        <input type="text" class="form-control border-0 py-3"
+                            placeholder="Enter the domain you want to register"
+                            aria-label="Text input with dropdown button">
+                        <button style="background-color:#ffd8bf;color: #fd1c24;" class="btn dropdown-toggle"
+                            type="button" data-bs-toggle="dropdown" aria-expanded="false">. com</button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                        <button  class="btn btn_1_bg  btn-outline-danger text-white px-3">Register</button>
+                    </div>
+                    <div class="d-flex gap-5 my-3">
+                        <p style="font-weight: bold;font-size: 18px;color: #326389;">.com <span
+                                style="font-size: 14px; color:#988383;">$6.19</span></p>
+                        <p style="font-weight: bold;font-size: 18px;color: #326389;">.net <span
+                                style="font-size: 14px; color:#988383;">$6.19</span></p>
+                        <p style="font-weight: bold;font-size: 18px;color: #326389;">.info <span
+                                style="font-size: 14px; color:#988383;">$6.19</span></p>
+                        <p style="font-weight: bold;font-size: 18px;color: #326389;">.org <span
+                                style="font-size: 14px; color:#988383;">$6.19</span></p>
+                        <p style="font-weight: bold;font-size: 18px; color: #326389;">.store <span
+                                style="font-size: 14px; color:#988383;">$6.19</span></p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-5 m-5">
+                    <img style="max-width: 600px;max-height: 600px;mix-blend-mode: multiply;"
+                        src="https://www.nodefusion.com/wp-content/uploads/2024/01/private-and-public-cloud-solutions.png"
+                        alt="image_1">
+                </div>
+
+            </div>
+        </div>
+        <div class="container_2 mx-4">
+            <p style="text-shadow: 15px;font-size: 40px;font-weight: bold;text-align: center;padding-top: 85px;color:#757a8d;">Every
+                Step Towards Online Triumph</p>
+            <p style="font-size: 16px;text-align: center;color: gray;text-shadow: 5px;">Check out our best deals across
+                our product range,and get what your website needs</p>
+            <!-- cards -->
+            <div class="d-flex flex-wrap gap-4 my-4">
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/DotOnline_gTLD_logo.svg/220px-DotOnline_gTLD_logo.svg.png">
+
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg btn-outline-danger text-white rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/DotORG_logo.svg/220px-DotORG_logo.svg.png">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/DotNet_logo.svg/220px-DotNet_logo.svg.png">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/DotCom.svg/250px-DotCom.svg.png">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/DotShop_gTLD_logo.svg/220px-DotShop_gTLD_logo.svg.png">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/.xyz_logo.svg/1200px-.xyz_logo.svg.png">
+
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/d/df/PRO_Official_Logo.gif">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-2">
+                    <div class="card p-4 " style="width: 18rem;">
+                        <img style="width: 50px;height: 40px;"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/.CLUB_English_logo.png/220px-.CLUB_English_logo.png">
+                        <div class="card-body">
+                            <p class="card-title py-2">Think about why buy domain name in the first place</p>
+                            <span style="text-decoration: line-through;" class="card-text py-2">$9.99</span>
+                            <span>$6.99</span>
+                            <div class="d-flex gap-2 py-4">
+                                <a href="#" class="btn btn_1_bg text-white  btn-outline-danger rounded-0 px-4 py-1">Register</a>
+                                <a href="#" class="btn btn-outline-secondary rounded-0 px-4 py-1">Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_3 mx-4">
+            <p style="text-shadow: 15px;font-size: 40px;font-weight: bold;text-align: center;padding-top: 85px;color:#757a8d;">Choose
+                Hosting plan</p>
+            <p style="font-size: 16px;text-align: center;color: gray;text-shadow: 5px;">Globally incubate
+                next-generation e-services via state of the art technology</p>
+            <div class="d-flex justify-content-center align-items-center gap-4 ">
+                <div style="border-radius: 5px; background-color: #3f284f;padding: 4px;">
+                    <button style="background-color: #fd1c24;color: white;" class="btn">Monthly</button>
+                    <button class="btn border-0 text-white">Yearly</button>
+                </div>
+                <!-- <div style="border-top: 1px dashed #fd1c24;border-radius: 50%;height: 45px;width: 45px;position: absolute;"></div> -->
+                <span>20% save</span>
+            </div>
+            <div class="row d-flex justify-content-between mx-2 my-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 card p-4  border-0 " style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <span style="text-align: center;font-weight: bold;">Basic plan</span>
+                    <div style="text-align: center;" class="card-body p-2">
+                        <p style="font-size: 14px;color: gray;font-weight: 600px;">Everything need to your website</p>
+                        <span style="position: absolute;top: 85px;font-weight: bold;">$</span>
+                        <span class="card-text ps-2 fw-bold fs-3">11.19</span>
+                        <span>/Per Month</span>
+                        <a href="#" class="btn btn-outline-danger px-5 my-4 fw-bold">Add To Cart</a>
+                    </div>
+                    <span style="color: gray;font-size: 14px;text-align: center;">$6.99/mo when you renew</span>
+                    <ul style="margin-top: 12px;padding: 0px;">
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7 Real-time
+                                        Monitoring</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7
+                                        Regular Security Patching</span>
+                                </div>
+
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Object
+                                        Cache Pro</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Domain($9.99 value)</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Staging
+                                        Environment</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">24/7/365
+                                        Support</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Email</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Bandwidth</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Free SSL</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">100
+                                        GB SSD
+                                        Storage</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">99.9%
+                                        Uptime
+                                        Guarantee</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <div class="dropdown-center">
+                            <button class="btn fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Features
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 card p-4  border-0 " style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <span style="text-align: center;font-weight: bold;">Premium plan</span>
+                    <div style="text-align: center;" class="card-body p-2">
+                        <p style="font-size: 14px;color: gray;font-weight: 600px;">Everything need to your website</p>
+                        <span style="position: absolute;top: 85px;font-weight: bold;">$</span>
+                        <span class="card-text ps-2 fw-bold fs-3">21.19</span>
+                        <span>/Per Month</span>
+                        <a href="#" class="btn btn-outline-danger px-5 my-4 fw-bold">Add To Cart</a>
+                    </div>
+                    <span style="color: gray;font-size: 14px;text-align: center;">$6.99/mo when you renew</span>
+                    <ul style="margin-top: 12px;padding: 0px;">
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7 Real-time
+                                        Monitoring</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7
+                                        Regular Security Patching</span>
+                                </div>
+
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: #fd1c24;font-size: 20px;" class="bi bi-x"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Object
+                                        Cache Pro</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Domain($9.99 value)</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: #fd1c24;font-size: 20px;" class="bi bi bi-x"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Staging
+                                        Environment</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">24/7/365
+                                        Support</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Email</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Bandwidth</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Free SSL</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">100
+                                        GB SSD
+                                        Storage</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">99.9%
+                                        Uptime
+                                        Guarantee</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <div class="dropdown-center">
+                            <button class="btn fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Features
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 card p-4" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="mostPopular w-50">
+                        <span>Most Popular</span>
+                    </div>
+                    <span style="text-align: center;font-weight: bold;">Business</span>
+                    <div style="text-align: center;" class="card-body p-2">
+                        <p style="font-size: 14px;color: gray;font-weight: 600px;">Everything need to your website</p>
+                        <span style="position: absolute;top: 85px;font-weight: bold;">$</span>
+                        <span class="card-text ps-2 fw-bold fs-3">31.19</span>
+                        <span>/Per Month</span>
+                        <a href="#" style="background-color: #fd1c24;"
+                            class="btn btn-outline-danger px-5 my-4 fw-bold  text-white">Add To Cart</a>
+                    </div>
+                    <span style="color: gray;font-size: 14px;text-align: center;">$6.99/mo when you renew</span>
+                    <ul style="margin-top: 12px;padding: 0px;">
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7 Real-time
+                                        Monitoring</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7
+                                        Regular Security Patching</span>
+                                </div>
+
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Object
+                                        Cache Pro</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Domain($9.99 value)</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Staging
+                                        Environment</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">24/7/365
+                                        Support</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Email</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Bandwidth</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Free SSL</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">100
+                                        GB SSD
+                                        Storage</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">99.9%
+                                        Uptime
+                                        Guarantee</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <div class="dropdown-center">
+                            <button class="btn fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Features
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 card p-4  border-0 " style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <span style="text-align: center;font-weight: bold;">Cloud Startup</span>
+                    <div style="text-align: center;" class="card-body p-2">
+                        <p style="font-size: 14px;color: gray;font-weight: 600px;">Everything need to your website</p>
+                        <span style="position: absolute;top: 85px;font-weight: bold;">$</span>
+                        <span class="card-text ps-2 fw-bold fs-3">41.19</span>
+                        <span>/Per Month</span>
+                        <a href="#" class="btn btn-outline-danger px-5 my-4 fw-bold">Add To Cart</a>
+                    </div>
+                    <span style="color: gray;font-size: 14px;text-align: center;">$6.99/mo when you renew</span>
+                    <ul style="margin-top: 12px;padding: 0px;">
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7 Real-time
+                                        Monitoring</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;">24/7
+                                        Regular Security Patching</span>
+                                </div>
+
+                                <div>
+                                    <i style="font-size: 12px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Object
+                                        Cache Pro</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Domain($9.99 value)</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Staging
+                                        Environment</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">24/7/365
+                                        Support</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Free
+                                        Email</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Bandwidth</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">Unlimited
+                                        Free SSL</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">100
+                                        GB SSD
+                                        Storage</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="d-flex justify-content-between align-content-center">
+                                <div>
+                                    <i style="color: green;font-size: 20px;" class="bi bi-check"></i>
+                                    <span
+                                        style="color: gray;font-size: 14px;font-weight: 500;padding-right: 34px;">99.9%
+                                        Uptime
+                                        Guarantee</span>
+                                </div>
+                                <div>
+                                    <i style="font-size: 14px;" class="bi bi-question-circle "></i>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="text-align: center;">
+                        <div class="dropdown-center">
+                            <button class="btn fw-bold dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More Features
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_4 mx-4">
+            <div style="margin-top: 85px;margin-bottom: 85px;" class="card mx-3  border-0 ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-4 rounded-2 ">
+                        <img style="width: 350px;height: 350px;"
+                            src="https://thebumblebee.in/wp-content/uploads/the-do-of-domain-registration.jpg.webp"
+                            alt="image_2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class=" mx-5">
+                            <p style="font-weight: bold;font-size: 40px;text-shadow: 5px;color:#757a8d;">Find the right hosting for
+                                your domain</p>
+                            <p style="font-size: 18px;color: gray;">Secure your perfect domain name and establish your
+                                online Identity with ease.utilize our advanced tools to find your ideal domain
+                                instantly.</p>
+                            <div class="d-flex gap-3 my-4">
+                                <img style="width: 45px;height: 45px;"
+                                    src="https://big#fd1c24jelly.com/wp-content/uploads/2018/12/Hosting-3.png">
+                                <div class="d-flex flex-column">
+                                    <span style="font-weight: bold;">Lightning -Fast Performance</span>
+                                    <span style="color: gray;">Experience unmatched speed and reliability</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <img style="width: 45px;height: 45px;"
+                                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQpMSwAmYFFD7SQx25ADAMn76Maa3DHUVst9APwZB2fTOuD05z">
+                                <div class="d-flex flex-column">
+                                    <span style="font-weight: bold;">Advanced Security</span>
+                                    <span style="color: gray;">Protect your site with top-tier security measures</span>
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px;">
+                                <button style="background-color: #fd1c24;color: white;"
+                                    class="btn btn-outline-danger px-4">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_5 mx-4">
+            <div style="margin-top: 85px;margin-bottom: 85px;mix-blend-mode: multiply;" class="card mx-3  border-0 ">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-8">
+                        <div class=" mx-5">
+                            <p style="font-weight: bold;font-size: 40px;text-shadow: 5px;color:#757a8d;">Buy a domain</p>
+                            <p style="font-size: 18px;color: gray;">Secure your perfect domain name and establish your
+                                online Identity with ease.utilize our advanced tools to find your ideal domain
+                                instantly.Already have a domain registe#fd1c24 elsewhere? no worries-our free and
+                                hassle-free domain transfer service makes the switch seamless</p>
+                            <div class="d-flex gap-3 my-4">
+                                <img style="width: 45px;height: 45px;"
+                                    src="https://big#fd1c24jelly.com/wp-content/uploads/2018/12/Hosting-3.png">
+                                <div class="d-flex flex-column">
+                                    <span style="font-weight: bold;">Instant Registration</span>
+                                    <span style="color: gray;">Get your ideal domain name registe#fd1c24 instantly</span>
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px;">
+                                <button style="background-color: #fd1c24;color: white;"
+                                    class="btn btn-outline-danger px-4">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-color: #ffd8bf;" class="col-md-4 rounded-2 ">
+                        <img style="width: 350px;height: 350px;mix-blend-mode: multiply;" 
+                            src="https://raisehub.ae/wp-content/uploads/2021/10/photo-1-1536x1536.jpg" alt="image_2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_6 mx-4">
+            <div style="margin-top: 85px;margin-bottom: 85px;" class="card mx-3  border-0 ">
+                <div class="row d-flex justify-content-between">
+                    <div style="background-color: #ffd8bf;" class="col-md-4 rounded-2">
+                        <img style="width: 350px;height: 350px;mix-blend-mode: multiply;" 
+                            src="https://artha.org.in/svg/modal-svg-1.svg" alt="image_2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class=" mx-5">
+                            <p style="font-weight: bold;font-size: 40px;text-shadow: 5px;color:#757a8d;">Add professional email</p>
+                            <p style="font-size: 18px;color: gray;">Secure your perfect domain name and establish your
+                                online Identity with ease.utilize our advanced tools to find your ideal domain
+                                instantly.</p>
+                            <div class="d-flex gap-3 my-4">
+                                <img style="width: 45px;height: 45px;"
+                                    src="https://big#fd1c24jelly.com/wp-content/uploads/2018/12/Hosting-3.png">
+                                <div class="d-flex flex-column">
+                                    <span style="font-weight: bold;">professional Email Addresses</span>
+                                    <span style="color: gray;">Experience unmatched speed and reliability</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-3">
+                                <img style="width: 45px;height: 45px;"
+                                    src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSQpMSwAmYFFD7SQx25ADAMn76Maa3DHUVst9APwZB2fTOuD05z">
+                                <div class="d-flex flex-column">
+                                    <span style="font-weight: bold;">Advanced Security</span>
+                                    <span style="color: gray;">Protect your site with top-tier security measures</span>
+                                </div>
+                            </div>
+                            <div style="margin-top: 25px;">
+                                <button style="background-color: #fd1c24;color: white;"
+                                    class="btn btn-outline-danger px-4">Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_7 mx-4">
+            <div class="d-flex justify-content-between mx-3">
+                <span style="text-shadow: 15px;font-size: 40px;font-weight: bold;padding-top: 85px;color:#757a8d;">Why Chooses
+                    Hostie</span>
+                <span style="font-size: 16px;color: gray;text-shadow: 5px;padding-top: 85px;width: 380px;">Own your
+                    virtual presence with the power of Hostie with 1.5 million websites already under our care</span>
+            </div>
+            <div class="d-flex justify-content-between">
+                <div class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="img_circle">
+                        <img src="https://hjbhi#fd1c24rive.com/wp-content/uploads/2021/01/wallet.png"
+                            style="width: 45px;height: 45px;mix-blend-mode: multiply;" alt="image_7">
+
+                    </div>
+                    <div class="card-body">
+                        <p style="font-weight: bold;">Money-Back Guaranteed</p>
+                        <p class="card-text">We guarantee it you don't have to worry about it</p>
+
+                    </div>
+                </div>
+                <div class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="img_circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU4POZxrOwH8K0hfu-ouxjTj1YnnnNS_RYX8sAM5si3JP5Y-Xq"
+                            style="width: 45px;height: 45px;mix-blend-mode: multiply;" alt="image_7">
+
+                    </div>
+                    <div class="card-body">
+                        <p style="font-weight: bold;">First & Reliable</p>
+                        <p class="card-text">if your website is slow or down then you losing customers.</p>
+
+                    </div>
+                </div>
+                <div class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="img_circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPOvUe4POLZ3FX3QSrGPdTMTsVQ-OCRQxWRdH-S5nPQNoKaDtt"
+                            style="width: 35px;height: 35px;mix-blend-mode: multiply;" alt="image_7">
+
+                    </div>
+                    <div class="card-body">
+                        <p style="font-weight: bold;">Super Easy To Use</p>
+                        <p class="card-text">Our custom control panel to use and removes the headache.</p>
+
+                    </div>
+                </div>
+                <div class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="img_circle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1kR1PTPu8wl0c5IYBVm42p6EtaqVBpa-kmI3yxwoZDi5vFJdA"
+                            style="width: 45px;height: 45px;mix-blend-mode: multiply;" alt="image_7">
+
+                    </div>
+                    <div class="card-body">
+                        <p style="font-weight: bold;">24/7 Expert Support</p>
+                        <p class="card-text">Our custom control panel to use and removes the headache.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container_8 mx-4">
+            <p style="text-shadow: 15px;font-size: 40px;font-weight: bold;text-align: center;padding-top: 85px;color:#757a8d;">Our
+                Customers Love Us</p>
+            <p style="font-size: 16px;text-align: center;color: gray;text-shadow: 5px;">From 24/7 support that acts as
+                your extended team to inc#fd1c24ibly fast website performance</p>
+            <div class="d-flex justify-content-between">
+                <div style="background-color: #fff4ed;" class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="stars mx-3">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="card-body ">
+                        <p style="font-weight: bold;">Excellent option for those looking for High-End WordPress
+                            Hosting.I have been using Cloud ways.</p>
+                        <div class="d-flex align-content-center gap-3">
+                            <img style="width: 45px;height: 45px;mix-blend-mode: multiply;"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s">
+                            <div class="d-flex flex-column">
+                                <span style="font-weight: bold;">Neesham</span>
+                                <span style="color: gray;">Marketer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div style="background-color: #fd1c24;" class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div style="color: white;" class=" mx-3">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="card-body text-white">
+                        <p style="font-weight: bold;">Excellent option for those looking for High-End WordPress
+                            Hosting.I have been using Cloud ways.</p>
+                        <div class="d-flex align-content-center gap-3">
+                            <img style="width: 45px;height: 45px;mix-blend-mode: multiply;"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s">
+                            <div class="d-flex flex-column">
+                                <span style="font-weight: bold;">Jamie Knop</span>
+                                <span>Business Owner</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div style="background-color: #fff4ed;" class="card border-0 mx-3 p-4 my-5" style="width: 18rem;">
+                    <div class="stars mx-3">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="card-body ">
+                        <p style="font-weight: bold;">Excellent option for those looking for High-End WordPress
+                            Hosting.I have been using Cloud ways.</p>
+                        <div class="d-flex align-content-center gap-3">
+                            <img style="width: 45px;height: 45px;mix-blend-mode: multiply;"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpd4mJRIUwqgE8D_Z2znANEbtiz4GhI4M8NQ&s">
+                            <div class="d-flex flex-column">
+                                <span style="font-weight: bold;">Neesham</span>
+                                <span style="color: gray;">Marketer</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-2 justify-content-center align-content-center">
+                <span class="dot dot_fill"></span>
+                <span class="dot"> </span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <p
+                style="text-shadow: 15px;font-size: 40px;font-weight: bold;text-align: center;padding-top: 85px;color: #fd1c24;">
+                Frequently asked questions</p>
+            <div class="container mt-5">
+                <div class="card card_collapse rounded-0">
+                    <div class="card-header border-0">
+                        <div class=" d-flex justify-content-between">
+                            <h5>Why buy a domain name from hostie?</h5>
+                            <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample_1"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-plus-circle"></i>
+                            </button>
+                            <!-- <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-dash-circle"></i>
+                            </button> -->
+                        </div>
+                    </div>
+                    <div id="collapseExample_1" class="collapse.show">
+                        <div class="card-body card-body_collapse fs-6">
+                            Above all else,We strive to deliver outstanding customer experiences.When you buy a domain
+                            name from hostie,we guarantee it will be handed over.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="card card_collapse rounded-0">
+                    <div class="card-header border-0">
+                        <div class=" d-flex justify-content-between">
+                            <h5>How does domain registration work?</h5>
+                            <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample_2"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-plus-circle"></i>
+                            </button>
+                            <!-- <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-dash-circle"></i>
+                            </button> -->
+                        </div>
+                    </div>
+                    <div id="collapseExample_2" class="collapse">
+                        <div class="card-body card-body_collapse fs-6">
+                            Above all else,We strive to deliver outstanding customer experiences.When you buy a domain
+                            name from hostie,we guarantee it will be handed over.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="card card_collapse rounded-0">
+                    <div class="card-header border-0">
+                        <div class=" d-flex justify-content-between">
+                            <h5>Why is domain name registration requi#fd1c24?</h5>
+                            <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample_3"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-plus-circle"></i>
+                            </button>
+                            <!-- <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-dash-circle"></i>
+                            </button> -->
+                        </div>
+                    </div>
+                    <div id="collapseExample_3" class="collapse">
+                        <div class="card-body card-body_collapse fs-6">
+                            Above all else,We strive to deliver outstanding customer experiences.When you buy a domain
+                            name from hostie,we guarantee it will be handed over.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="card card_collapse rounded-0">
+                    <div class="card-header border-0">
+                        <div class=" d-flex justify-content-between">
+                            <h5>Why is domain name registration requi#fd1c24?</h5>
+                            <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample_4"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-plus-circle"></i>
+                            </button>
+                            <!-- <button class="btn " data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="bi bi-dash-circle"></i>
+                            </button> -->
+                        </div>
+                    </div>
+                    <div id="collapseExample_4" class="collapse">
+                        <div class="card-body card-body_collapse fs-6">
+                            Above all else,We strive to deliver outstanding customer experiences.When you buy a domain
+                            name from hostie,we guarantee it will be handed over.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="padding-top: 85px;background-color: #fd1c24;"
+                class="d-flex justify-content-between align-items-center  rounded-4 mx-3  mt-5 p-5">
+                <div class="d-flex flex-column gap-2 w-25">
+                    <button style="background-color: orange;color: white;" class="btn">Need help choosing a
+                        plan?</button>
+                    <p style="color: white;font-weight: bold;font-size: 25px;">Need help?We're always here for you.</p>
+                </div>
+                <div>
+                    <button style="background-color: white;color: #757a8d;" class="btn fw-bold">Go To Live Chat
+                        page</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 85px;" class="mx-3">
+        <div class="row mx-3 py-4 d-flex  align-content-sm-center ">
+            <div class="d-flex flex-column gap-3 col-12 col-sm-12 col-md-6 col-lg-3 text-center text-lg-start">
+                <div class="d-flex flex-column position-relative">
+                    <a class="navbar-brand pb-0 me-auto" href="#">
+                        <span style="font-weight: 600;font-size: 24px;">HOSTING</span>
+                        <span style="font-weight: 600;font-size: 24px; color:#fd1c24;">RAJA</span>
+                        <span style="font-size: 14px;color: rgb(179, 172, 172); position: absolute;">
+                            ®
+                        </span>
+                    </a>
+                    <span style="font-size: 13px;font-weight: 500;">No.1 Indian Hosting Company</span>
+                    <span style="font-size: 13px; font-weight: 500;">ISO 9001:2015 Certified</span>
+                </div>
+                <p>1811Silverside Rd,Wilmington DE19810,USA</p>
+                <div class="break"></div>
+                <div class="d-flex gap-2">
+                    <div class="square_box"><i style="color: white;" class="bi bi-telephone"></i></div>
+                    <p>+806(000)88 99</p>
+                </div>
+                <div class="d-flex gap-2">
+                    <div class="square_box"><i style="color: white;" class="bi bi-envelope"></i></div>
+                    <p>info@hostie.com</p>
+                </div>
+            </div>
+            <div class=" details_list col-12 col-sm-12 col-md-6 col-lg-3 text-center text-lg-start">
+                <p style="font-size: 18px;font-weight: 600; padding-left: 32px;color: #757a8d;">Company</p>
+                <ul style="list-style: none;font-size: 14px;">
+                    <li>About Us</li>
+                    <li>News Feed</li>
+                    <li>Affiliate Program</li>
+                    <li>Knowledgebase</li>
+                    <li>Technology</li>
+                </ul>
+            </div>
+            <div class=" details_list col-12 col-sm-12 col-md-6 col-lg-3 text-center text-lg-start">
+                <p style="font-size: 18px;font-weight: 600; padding-left: 32px;color: #757a8d;">Hosting</p>
+                <ul style="list-style: none;font-size: 14px;">
+                    <li>Sha#fd1c24 Hosting</li>
+                    <li>Vps Hosting</li>
+                    <li>Reseller Hosting </li>
+                    <li>Dedicated Hosting</li>
+                    <li>Cloud Hosting</li>
+                    <li>WordPress Hosting</li>
+                </ul>
+            </div>
+            <div class=" details_list col-12 col-sm-12 col-md-6 col-lg-3 text-center text-lg-start">
+                <p style="font-size: 18px;font-weight: 600; padding-left:32px;color: #757a8d;">Join Our Newsletter</p>
+                <p style="font-size: 14px; padding-left:32px;">We'll send you news and offers</p>
+                <div class="ms-4 col-12 my-2 search_field py-1  d-flex justify-content-between px-2 ">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <i class="bi bi-envelope-open"></i>
+                        <input class="form-control border-0 bg-transparent " type="text" placeholder="Enter Email">
+                    </div>
+                    <div>
+                        <i style="color: #fd1c24;font-size: 25px;" class="bi bi-arrow-up-right-circle-fill"></i>
+                    </div>
+                </div>
+                <p style="font-size: 18px;font-weight: 600; padding-left:32px;padding-top: 25px;padding-bottom: 10px;color: #757a8d;">
+                    Social Media</p>
+                <div class="d-flex justify-content-evenly ps-2">
+                    <div class="square_outer"><i class="bi bi-facebook"></i></div>
+                    <div class="square_outer"><i class="bi bi-instagram"></i></div>
+                    <div class="square_outer"><i class="bi bi-linkedin"></i></div>
+                    <div class="square_outer"><i class="bi bi-twitter-x"></i></div>
+                    <div class="square_outer"><i class="bi bi-linkedin"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="break_footer">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
